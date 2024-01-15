@@ -301,3 +301,44 @@ gap: 20px;
     font-weight: 800;
     line-height: normal;
 }
+/* Footer Section Styles */
+.footer-part{
+    text-align: center;
+    padding: 110px 335px;
+}
+footer{
+    width: 1895px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-img{
+    margin-left: 390px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.footer-img h1{
+    color: #131318;
+    font-size: 30px;
+    font-weight: 800;
+}
+.travel{
+    color: #FF5400;
+font-size: 30px;
+font-weight: 800;
+}
+.footer-texts p{
+    max-width: 100%;
+}
+.social-media{
+    font-size: 2rem;
+    margin-top: 40px;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+.footer-part p{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+}
