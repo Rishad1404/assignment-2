@@ -143,16 +143,17 @@ gap: 44px;
 /* Choose-Destination */
 .choose-destination{
     text-align: center;
+    margin-bottom: 100px;
+    padding: 0 350px;
+}
+.choose-destination-texts{
+    margin-bottom: 50px;
 }
 .choose-destination-texts h1{
     color: #131318;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-}
-.choose-destination-images{
-    padding: 0 350px;
-    
 }
 .flex1{
     margin-bottom: 15px;
@@ -180,4 +181,53 @@ gap: 44px;
     color: #FFF;
     font-size: 20px;
 
+}
+/* Why choose Us part  */
+.why-choose-us{
+    text-align: center;
+    padding: 0 350px;
+}
+.why-choose-us-texts{
+    margin-bottom: 50px;
+}
+.cards{
+display: flex;
+gap: 20px;
+
+}
+.card1{
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.card2{
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.card3{
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-left: 300px;
+    margin-top: 20px;
+
+}
+
+.cards-image{
+    width: 64px;
+    height: 64px;
+}
+.contents1{
+    text-align: left;
+    padding: 35px;
 }
