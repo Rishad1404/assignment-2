@@ -519,12 +519,74 @@ top: 100px;
         margin-bottom: 10px;
     }
     .cards{
-    flex-direction: column;
-    gap: 20px;  
+        flex-direction: column;
+        gap: 20px;  
     }
     .card3{
         margin-left: 0;
         margin-top: 20px;
     }
+    /* Award Winning Section */
+    .award{
+        margin-top: 50px;
+        text-align: center;
+        margin-left: 0;
+        
+    }
+    .award-texts{
+        padding: 0;
+        max-width: 100%;
+    }
+    .award-texts img{
+        height: 74px;
+        width: 74px;
+        
+    }
+    .award-winning{
+        width: 600px;
+        padding: 50px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .award-winning .award-image img{
 
+        width: 535px;
+    height: 276px;
+    flex-shrink: 0;
+        
+    }
+    .award-image{
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: start;
+    }
+    .circle1{
+      display: none;
+        }
+    .circle2{
+            display: none;
+        }
+        /* Newsletter Part */
+
+        .newsletter{
+            gap: 25px;
+            flex-direction: column;
+            margin-top: 30;
+            margin-left: 40px;
+            margin-bottom: 30px;
+            width: 100%;
+            height: 400px;
+        }
+        .newsletter-box-texts{
+            padding: 40px;
+        }
+        .newsletter-box-texts hr{
+            width: auto;
+            justify-content: start;
+        }
+
+        .newsletter-image{
+            margin-left: 5px;
+        }
 }
