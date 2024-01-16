@@ -5,7 +5,7 @@
 /* Header section-styles */
 
 nav{
-    margin: 50px 350px 0 350px;
+    padding: 50px 250px 0 270px ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,11 +30,10 @@ font-weight: 800;
 height: 56.008px;
 }
 .menu-bar ul{
-    display: inline-flex;
-    padding: 10px 0px;
-    justify-content: right;
+    display: inline-flex; 
+    justify-content: space-around;
     align-items: center;
-    gap: 44px;
+    gap: 40px;
     
 }
 .menu-bar ul li{
@@ -51,15 +50,17 @@ height: 56.008px;
 }
 .open-menu{
     visibility: hidden;
+    padding-right: 200px;
 }
-
 /* background image-part */
+.banner-bg{
+    padding: 0 270px;
+}
 .bg-image{
-    
     width: 1170px;
     background-position: center;
+    background-repeat: no-repeat;
     justify-content: center;
-    margin-left: 350px;
     height: 500px;
     border-radius: 16px;
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 70%),url('../Images/1.png');
@@ -78,7 +79,7 @@ height: 56.008px;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    margin: 20px 100px 100px 100px;
+    padding: 0 220px 20px;
 }
 .selector{
     margin-bottom: 200px;
@@ -423,22 +424,107 @@ top: 100px;
 
 /* making Responsive for mobile devices */
 
-@media  screen and (max-width:600px) {
-    
+@media screen and (max-width:600px)  {
     nav{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    } 
-    .nav-img{
-        padding: 10px;
-    } 
-    .menu-bar{
+        width: 100%;
+        padding: 0;
+    }
+    .menu-bar ul{
+        margin-left: 350px;
         visibility: hidden;
     }
+
     .open-menu{
         visibility: visible;
-        position: relative;
+    }
+    .banner-bg{
+        max-width: 100%;
+        padding: 0;
+    }
+    .bg-image{
+        width: 600px;
+        background-repeat: no-repeat;
+        justify-content: left;
+        align-items: start;
+        height: 500px;
         
     }
+    .selector{
+
+        flex-direction: column;
+        gap: 24px;
+
+    }
+    .bg-image-texts p{
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 0;
+    }
+    .bg-image-texts h1{
+        color: #FFF;
+        font-size: 50px;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 0;
+        padding: 10px;
+    }
+    .our-popular-tours{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        gap: 55px;
+    }
+    /* Choose destination */
+    .choose-destination{
+        text-align: center;
+        margin-bottom: 100px;
+        padding: 0;
+    }
+    .choose-destination-texts h1{
+        color: #131318;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 800;
+    }
+    .flex1{
+        margin-bottom: 15px;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .flex2{
+        width: 100%;
+        flex-direction: column;
+        gap: 18px;
+        margin-bottom: 15px;
+    }
+    .flex3{
+        flex-direction: column;
+        gap: 15px;
+    }
+    /* Why choose Us part */
+    .why-choose-us{
+        text-align: center;
+        padding: 0;
+    }
+    .why-choose-us-texts{
+        margin-bottom: 50px;
+    }
+    .why-choose-us-title{
+        color: #131318;
+        font-size: 24px;
+        font-weight: 800;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .cards{
+    flex-direction: column;
+    gap: 20px;  
+    }
+    .card3{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
 }
