@@ -505,6 +505,9 @@ top: 100px;
         flex-direction: column;
         gap: 15px;
     }
+    .flex1 .images7 img{
+        width: 100%;
+    }
     .flex2{
         width: 100%;
         flex-direction: column;
@@ -540,7 +543,11 @@ top: 100px;
         flex-direction: column;
         gap: 20px;  
     }
+    .card1, .card2{
+        width: 100%;
+    }
     .card3{
+        width: 100%;
         margin-left: 0;
         margin-top: 20px;
     }
@@ -594,17 +601,33 @@ top: 100px;
             margin-left: 10px;
             margin-bottom: 30px;
             width: 100%;
-            height: 400px;
+            height: 300px;
+        }
+        .btn-3{
+            border: none;
+            color: #FFF;
+            font-size: 16px;
+            width: 100%;
+            height: 52px;
+            border-radius: 8px;
+            background: #FF5400;
         }
         .newsletter-img .image9{
             width: 100%;
         }
         .newsletter-box-texts{
-            padding: 40px;
+            padding: 10px;
         }
         .newsletter-box-texts hr{
             width: auto;
             justify-content: start;
+        }
+        .newsletter-box-texts input{
+            padding: 0px;
+            text-align: left;
+            font-size: 15px;
+            width: 100%;
+            height: 40px;
         }
         .offer-badge{
             color: #FFF;
@@ -625,17 +648,17 @@ top: 100px;
         }
         .footer-part{
 
-            margin-top: 420px;
+            margin-top: 380px;
             text-align: center;
-            padding: 30px;
+            padding: 20px;
         }
         footer{
             width: 100%;
-            height: 320px;
+            height: 350px;
             background: rgba(19, 19, 24, 0.05);
         }
         .footer-img{
-            margin-left: 100px;
+            margin-left: 130px;
             display: flex;
             align-items: center;
             gap: 20px;
