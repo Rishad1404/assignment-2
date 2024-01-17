@@ -604,7 +604,7 @@ top: 100px;
             gap: 25px;
             flex-direction: column;
             margin-top: 30;
-            margin-left: 10px;
+            margin-left: 0px;
             margin-bottom: 30px;
             width: 100%;
             height: 300px;
@@ -617,6 +617,7 @@ top: 100px;
     .newsletter-img .image9{
             width: 100%;
         }
+
     .newsletter-box-texts{
             padding: 10px;
         }
